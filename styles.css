@@ -3,6 +3,10 @@ h2, h3 {
     font-weight: bold;
 }
 
+h1 {
+    font-size: 32px;
+}
+
 header {
     margin-top: 63px;
     display: flex;
@@ -42,11 +46,6 @@ header nav div {
     display: none;
 }
 
-.hero-info h1{
-    font-size: 32px;
-    text-transform: uppercase;
-}
-
 .content-box {
     padding: 24px 32px;
 }
@@ -67,6 +66,7 @@ footer .social-icons {
 
 footer .social-icons li {
     padding: 10px;
+    list-style: none;
 }
 
 footer .social-icons img {
@@ -75,6 +75,31 @@ footer .social-icons img {
 }
 
 img {
-    max-width: 200px;
+    max-width: 300px;
     height: auto;
+    border-radius: 5px;
+}
+
+/* Kudu case study */
+.kudu-body h2{
+    font-size: 20px;
+}
+.project-text {
+    padding-top: 96px;
+   
+}
+.project-text p {
+    padding-bottom: 28px;
+}
+
+.project-info-list {
+    padding-top: 28px;
+}
+
+.project-info-list ul {
+    margin-left: 24px;
+}
+
+.purpose-text, .purpose-text p {
+    padding-top: 28px;
 }
