@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Matthew Farquharson | UX Designer</title>
 </head>
 <body>
-    <header>
+    <header class="content-box">
         <nav>
             <div class="flex-left"><img src="./assets/personal-logo.png" alt="Matthew Farquharson personal logo"></div>
-            <div class="flex-right">
+            <div class="nav-right">
                 <ul>
                     <li><a href="">PROJECTS</a></li>
                     <li><a href="">RESUME</a></li>
@@ -18,13 +20,20 @@
                 </ul>
             </div>
         </nav>
+        <div>
+            <div class="burger-top"></div>
+            <div class="burger-bottom"></div>    
+        </div>
     </header>
-    <section class="hero">
+    <section class="content-box">
         <div class="hero-img">
             <img src="./assets/homepage-photo.png" alt="Matthew Farquharson">
         </div>
         <div class="hero-info">
-            <h1>Matthew Farquharson</h1>
+            <h1>
+                <div>Matthew</div>
+                <div>Farquharson</div>
+            </h1>
             <h2>UX/UI Designer</h2>
             <p>Welcome. I'm a designer in the Twin Cities, and I enjoy creating thoughtful digital experiences.</p>
         </div>
@@ -33,7 +42,7 @@
     <section class="projects-container">
 
         <!-- Project Kudu -->
-        <article class="project">
+        <article class="content-box">
             <h3>Kudu</h3>
             <img src="./assets/kudu-case-study-image.png" alt="Mockup of Kudu app">
             <p>A cloud service that empowers digital content creators.</p>
@@ -41,7 +50,7 @@
         </article>
 
         <!-- Project BusyBus -->
-        <article class="project">
+        <article class="content-box">
             <h3>BusyBus</h3>
             <img src="./assets/busybus-mockup.png" alt="Mockup of BusyBus app">
             <p>A mobile transit app that allows users to track when certain buses are arriving at specific bus stops.</p>
@@ -51,7 +60,7 @@
     </section>
 
     <!-- Experience -->
-    <section class="experience-container">
+    <section class="content-box">
         <h3>Experience</h3>
         <img src="./assets/flow-diagram-1.png" alt="Flow diagram">
         <p>With a passion for user research and information architecture, I understand the importance of overriding my personal biases and creating user centered designs.</p>
@@ -59,7 +68,7 @@
     </section>
 
     <!-- About me -->
-    <section class="about-container">
+    <section class="content-box">
         <h3>About me</h3>
         <img src="./assets/about-me.png" alt="Matthew Farquharson with his dog">
         <p>Before leaping into the world of user experience design, I was  pursuing my Masters in violin performance at Boston Conservatory.</p>
