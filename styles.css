@@ -32,6 +32,10 @@ header {
     justify-content: flex-end;
 }
 
+.desktop {
+    display: none;
+}
+
 header nav {
     width: 100%;
     flex-direction: row;
@@ -306,6 +310,27 @@ footer .social-icons img {
 }
 
 @media only screen and (min-width: 760px) {
+    .desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .flex-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .flex div, .flex-reverse div {
+        width: 50%;
+    }
+    
     .hero-container {
         display: flex;
         justify-content: space-evenly;
