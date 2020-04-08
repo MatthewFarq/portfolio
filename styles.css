@@ -5,7 +5,6 @@ body {
 header, main {
     max-width: 1188px;
     margin: auto;
-
 }
 
 h1, h2, h3 {
@@ -28,6 +27,11 @@ img {
     max-width: 300px;
     height: auto;
     border-radius: 5px;
+}
+
+.content-img {
+    width: 100%;
+    height: auto;
 }
 
 header {
@@ -401,7 +405,7 @@ footer .social-icons img {
 
 @media only screen and (min-width: 1130px) {
     img {
-        max-width: 600px;
+        max-width: 500px;
     }
 
     .header {
