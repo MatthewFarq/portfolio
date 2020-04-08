@@ -1,7 +1,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    max-width: 1200px;
+}
+
+header, main {
+    max-width: 1188px;
     margin: auto;
+
 }
 
 h1, h2, h3 {
@@ -44,7 +48,7 @@ header nav {
 }
 
 header nav div {
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -55,13 +59,14 @@ header nav div {
     flex-direction: row;
     list-style: none;
     color: #000000;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .nav-right ul li a {
     color: #000000;
     font-weight: 700;
     font-size: 16px;
-    padding-right: 40px;
 }
 
 .burger-top {
@@ -90,13 +95,6 @@ header nav div {
     max-width: 400px;
 }
 
-.hero-info p {
-    font-size: 23px;
-    font-weight: 500;
-    line-height: 1.4;
-    padding: 120px 0 120px 0;
-}
-
 .hero-img {
     display: none;
 }
@@ -110,6 +108,13 @@ header nav div {
     line-height: 1.4;
     font-size: 20px;
     font-weight: 500;
+}
+
+.hero-info p {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.4;
+    padding: 120px 0 120px 0;
 }
 
 .cta-btn {
@@ -130,10 +135,6 @@ header nav div {
     width: 100%;
     text-align: center;
     padding: 35px 0 20px 0;
-}
-
-.kudu img {
-    width: 100%;
 }
 
 .busy-bus img {
@@ -189,6 +190,9 @@ footer .social-icons img {
 
 .kudu-body .content-box {
     margin-bottom: 30px;
+}
+.kudu-body img {
+    max-width: 300px;
 }
 
 .kudu-hero h1 {
@@ -310,6 +314,11 @@ footer .social-icons img {
 }
 
 @media only screen and (min-width: 760px) {
+
+    img {
+        max-width: 350px;
+    }
+
     .desktop {
         display: block;
     }
@@ -334,16 +343,33 @@ footer .social-icons img {
     .hero-container {
         display: flex;
         justify-content: space-evenly;
+        padding: 0;
     }
 
     .hero-img {
        display: block;
        width: 50%;
+       text-align: center;
    }
 
-   .hero-info {
-       width: 50%;
+   .hero-info-container {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
    }
+
+    .hero-info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 360px;
+    }
+
+    .hero-info .border-line {
+        max-width: 325px;
+    }
 
    .projects-container {
        display: flex;
@@ -359,12 +385,51 @@ footer .social-icons img {
    }
 }
 
+@media only screen and (min-width: 930px) {
+    img {
+        max-width: 400px;
+    }
+
+    .hero-info {
+        max-width: 380px;
+    }
+
+    .hero-info .border-line {
+        max-width: 400px;
+    }
+}
+
 @media only screen and (min-width: 1130px) {
+    img {
+        max-width: 600px;
+    }
+
+    .header {
+        padding: 0;
+    }
+
     header nav {
         display: flex
     }
 
+    header nav .nav-right {
+        justify-content: center;
+    }
+
+    header nav .nav-left {
+        padding-left: 45px;
+    }
+
     header .hamburger-menu {
         display: none;
+    }
+
+    .hero-info {
+        max-width: 498px;
+    }
+
+    .hero-info p {
+        font-size: 30px;
+        line-height: 1.5;
     }
 }
