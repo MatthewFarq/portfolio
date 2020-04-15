@@ -130,7 +130,7 @@ header nav .nav-right {
 
 .content-box p {
     line-height: 1.4;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -350,6 +350,15 @@ footer .social-icons img {
     .desktop {
         display: block;
     }
+    .centered-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+   .centered-img .centered-img-container {
+        width: 100%;
+    }
 
     .mobile {
         display: none;
@@ -421,6 +430,24 @@ footer .social-icons img {
         margin-left: 10px;
     }
 
+    .personal-text h3 {
+        padding-bottom: 16px;
+    }
+
+    .personal-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .padding-right {
+        padding-right: 45px;
+    }
+
+    .padding-left {
+        padding-left: 45px;
+    }
 }
 
 @media only screen and (min-width: 930px) {
@@ -435,6 +462,18 @@ footer .social-icons img {
     .hero-info .border-line {
         max-width: 400px;
     }
+    .content-box {
+        padding: 64px 90px;
+    }
+
+    .padding-right {
+        padding-right: 100px;
+    }
+
+    .padding-left {
+        padding-left: 100px;
+    }
+
 }
 
 @media only screen and (min-width: 1130px) {
