@@ -1,0 +1,155 @@
+/* Kudu case study */
+.kudu-body h1 {
+    font-size: 36px;
+}
+
+.kudu-body h2 {
+    font-size: 20px;
+    line-height: 1.4;
+    padding-bottom: 23px;
+}
+
+.kudu-body .content-box {
+    margin-bottom: 30px;
+}
+.kudu-body img {
+    max-width: 300px;
+}
+
+.kudu-hero h1 {
+    padding-bottom: 40px;
+}
+
+.kudu-hero {
+    padding: 24px 32px;
+}
+
+.kudu-hero p {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.kudu-body .content-box p {
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.project-text {
+    padding-top: 96px;
+}
+
+.project-text p {
+    padding-bottom: 28px;
+}
+
+.project-info-list {
+    padding-top: 28px;
+}
+
+.project-info-list ul {
+    margin-left: 24px;
+}
+.project-info-list ul li {
+    line-height: 1.7;
+}
+
+.content-box .prototype:nth-child(1) {
+    padding-bottom: 25px;
+}
+
+.prototype .img-container {
+    padding-bottom: 0;
+}
+
+.purpose-text li {
+    padding-top: 16px;
+}
+
+.purpose-text ol {
+    list-style-position: inside;
+}
+
+.content-box .purpose-text:nth-child(2) h2 {
+    padding-top: 28px;
+}
+
+.user-survey-graphs {
+    padding-top: 60px;
+}
+
+.user-survey-graphs .graph-container {
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.personas p span {
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+.persona-examples {
+    margin: 15px -32px 0 -32px;
+}
+
+.persona-examples img {
+    min-width: 100%;
+}
+
+.wireframes {
+    margin-top: 25px;
+}
+
+.wireframes p {
+    padding-top: 20px;
+}
+
+.screens img {
+     margin-top: 30px;
+}
+
+.platform .hootsuite-text {
+    margin-top: -50px;
+}
+
+.mockups-screens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.mockups-screens .arrow {
+    max-width: 25px;
+    margin: 10px;
+}
+
+.mockups-screens .arrow.horizontal {
+    display: none;
+}
+
+.paragraph-padding p {
+    padding-bottom: 20px;
+}
+
+.projects-container article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+@media only screen and (min-width: 760px) {
+   
+}
+
+@media only screen and (min-width: 930px) {
+    
+}
+
+@media only screen and (min-width: 1130px) {
+   
+
+}
