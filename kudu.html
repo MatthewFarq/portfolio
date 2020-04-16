@@ -5,28 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="kudu.css">
     <title>Kudu Case Study</title>
 </head>
-<body class="kudu-body">
-    <header class="content-box">
+<body id="body" class="kudu-body">
+    <header class="header">
         <nav>
-            <div class="flex-left">
-                <a href="index.html">
-                    <img src="./assets/personal-logo.png" alt="Matthew Farquharson personal logo"></div>
-                </a>
+            <div class="nav-left"><img src="./assets/personal-logo.png" alt="Matthew Farquharson personal logo"></div>
             <div class="nav-right">
-                <ul>
+                <ul class="nav-list">
                     <li><a href="">PROJECTS</a></li>
                     <li><a href="">RESUME</a></li>
                     <li><a href="">ABOUT ME</a></li>
                     <li><a href="">GET IN TOUCH</a></li>
                 </ul>
+
+                <div class="hamburger-menu" id="hamburger-button">
+                    <div class="burger-top"></div>
+                    <div class="burger-bottom"></div>    
+                </div>
             </div>
         </nav>
-        <div>
-            <div class="burger-top"></div>
-            <div class="burger-bottom"></div>    
-        </div>
+        
     </header>
     <section class="kudu-hero">
         <h1>Kudu</h1>
@@ -405,5 +405,19 @@
             <li><a href="https://twitter.com/MatthewFarq" target="_blank"><img src="./assets/twitter-icon.svg" alt="Twitter Logo"></a></li>
         </ul>
     </footer>
+
+    <div class="overlay hide"></div>
+
+    <div class="nav-drawer">
+        <ul class="nav-items">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="">PROJECTS</a></li>
+            <li><a href="">RESUME</a></li>
+            <li><a href="">ABOUT ME</a></li>
+            <li><a href="">GET IN TOUCH</a></li>
+        </ul>
+    </div>
+    <script src="index.js"></script>
+
 </body>
 </html>
