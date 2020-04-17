@@ -6,22 +6,25 @@
 .kudu-body h2 {
     font-size: 20px;
     line-height: 1.4;
-    padding-bottom: 23px;
+    padding-bottom: 20px;
 }
 
 .kudu-body .content-box {
-    margin-bottom: 30px;
+    margin-bottom: 0;
 }
 .kudu-body img {
     max-width: 300px;
 }
+ .kudu-body .img-container {
+     padding-top: 0;
+ }
 
 .kudu-hero h1 {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .kudu-hero {
-    padding: 24px 32px;
+    padding: 56px 32px;
 }
 
 .kudu-hero p {
@@ -30,18 +33,15 @@
     line-height: 1.4;
 }
 
+.kudu-body .content-box {
+    margin-top: 64px;
+    padding: 0 32px;
+}
+
 .kudu-body .content-box p {
     line-height: 1.5;
     font-size: 16px;
     font-weight: 400;
-}
-
-.project-text {
-    padding-top: 96px;
-}
-
-.project-text p {
-    padding-bottom: 28px;
 }
 
 .project-info-list {
@@ -56,7 +56,7 @@
 }
 
 .content-box .prototype:nth-child(1) {
-    padding-bottom: 25px;
+    padding-bottom: 40px;
 }
 
 .prototype .img-container {
@@ -71,17 +71,13 @@
     list-style-position: inside;
 }
 
-.content-box .purpose-text:nth-child(2) h2 {
-    padding-top: 28px;
-}
-
-.user-survey-graphs {
-    padding-top: 60px;
-}
-
-.user-survey-graphs .graph-container {
+.user-survey-graphs figure {
     text-align: center;
     padding-bottom: 45px;
+}
+
+.user-survey-graphs figure:nth-last-child(1) {
+    padding-bottom: 0;
 }
 
 .personas p span {
@@ -89,19 +85,18 @@
     font-weight: 700;
 }
 
-.persona-examples {
-    margin: 15px -32px 0 -32px;
+.persona-description {
+    padding-bottom: 16px;
+}
+.persona-description h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.persona-description ul {
+    margin-left: 24px;
 }
 
-.persona-examples img {
-    min-width: 100%;
-}
-
-.wireframes {
-    margin-top: 25px;
-}
-
-.wireframes p {
+.personas .img-container {
     padding-top: 20px;
 }
 
@@ -109,8 +104,11 @@
      margin-top: 30px;
 }
 
-.platform .hootsuite-text {
-    margin-top: -50px;
+.platform .img-container .spaced-img {
+    margin: -20px 0;
+}
+.platform .img-container img {
+    max-width: 200px;
 }
 
 .mockups-screens {
@@ -140,6 +138,13 @@
     justify-content: space-between;
 }
 
+.kudu-name .img-container {
+    padding-bottom: 0;
+}
+
+.content-box.conclusion {
+    margin-bottom: 64px;
+}
 
 @media only screen and (min-width: 760px) {
    
