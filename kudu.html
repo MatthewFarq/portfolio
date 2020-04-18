@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="kudu.css">
     <title>Kudu Case Study</title>
 </head>
@@ -84,21 +84,25 @@
     </section>
 
     <!-- Prototypes -->
-    <section class="content-box">
+    <section class="content-box flex-container">
         <div class="prototype">
-            <div class="img-container">
-                <img src="./assets/kudu-desktop-prototype.png" alt="Kudu desktop prototype">
-            </div>
-            <div class="cta-btn">
-                <a href="">Desktop prototype</a>
+            <div class="content-container">
+                <div class="img-container">
+                    <img src="./assets/kudu-desktop-prototype.png" alt="Kudu desktop prototype">
+                </div>
+                <div class="cta-btn">
+                    <a href="">Desktop prototype</a>
+                </div>
             </div>
         </div>
         <div class="prototype">
-            <div class="img-container">
-                <img src="./assets/kudu-mobile-prototype.png" alt="Kudu mobile prototype">
-            </div>
-            <div class="cta-btn">
-                <a href="">Mobile prototype</a>
+            <div class="content-container">
+                <div class="img-container">
+                    <img src="./assets/kudu-mobile-prototype.png" alt="Kudu mobile prototype">
+                </div>
+                <div class="cta-btn">
+                    <a href="">Mobile prototype</a>
+                </div>
             </div>
         </div>
     </section>
@@ -179,18 +183,27 @@
 
     <section class="content-box">
         <div class="user-survey-graphs">
-            <figure>
-                <img src="./assets/kudu-graph-1.png" alt="Social media bar graph">
-                <figcaption><strong>Sharing content</strong></figcaption>
-            </figure>
-            <figure>
-                <img src="./assets/kudu-graph-2.png" alt="Storing content pie chart">
-                <figcaption><strong>Storing content</strong></figcaption>
-            </figure>
-            <figure>
-                <img src="./assets/kudu-graph-3.png" alt="Social media management platforms pie chart">
-                <figcaption><strong>SMM Platforms</strong></figcaption>
-            </figure>
+            <div>
+                <figure>
+                    <img src="./assets/kudu-graph-1.png" alt="Social media bar graph">
+                    <figcaption><strong>Sharing content</strong></figcaption>
+                </figure>
+            </div>
+            
+            <div>
+                <figure>
+                    <img src="./assets/kudu-graph-2.png" alt="Storing content pie chart">
+                    <figcaption><strong>Storing content</strong></figcaption>
+                </figure>
+            </div>
+            
+            <div>
+                <figure>
+                    <img src="./assets/kudu-graph-3.png" alt="Social media management platforms pie chart">
+                    <figcaption><strong>SMM Platforms</strong></figcaption>
+                </figure>
+            </div>
+          
         </div>
     </section>
 
@@ -211,43 +224,51 @@
             Successful individuals or small oranizations that are supporting themselves financially by 
             producing professional level content that reach their fans and potential clients/employers.
         </p>
-
-        <div class="img-container">
-            <img src="./assets/kudu-persona-1.png" alt="Kudu persona 1 description">
+        <div class="personas-container">
+            <div class="persona">
+                <div class="img-container">
+                    <img src="./assets/kudu-persona-1.png" alt="Kudu persona 1 description">
+                </div>
+                <div class="persona-description">
+                    <h4>Goals</h4>
+                    <ul>
+                        <li>Alert fans when she is live</li>
+                        <li>Engage with fans on social media</li>
+                        <li>Track social media analytics</li>
+                    </ul>
+                </div>
+                <div class="persona-description">
+                    <h4>Frustrations</h4>
+                    <ul>
+                        <li>Posting on multiple social networks</li>
+                        <li>Organizing her streaming assets</li>
+                    </ul>
+                </div>
+            </div>
+    
+           <div class="persona">
+            <div class="img-container">
+                <img src="./assets/kudu-persona-2.png" alt="Kudu persona 2 description">
+            </div>
+            <div class="persona-description">
+                <h4>Goals</h4>
+                <ul>
+                    <li>Organize all band related assets</li>
+                    <li>Engage with fans on social media</li>
+                    <li>Collaborate with band mates</li>
+                </ul>
+            </div>
+            <div class="persona-description">
+                <h4>Frustrations</h4>
+                <ul>
+                    <li>SMM platforms don’t provide storage</li>
+                    <li>Posting content regularly</li>
+                </ul>
+            </div>
+           </div>
         </div>
-        <div class="persona-description">
-            <h4>Goals</h4>
-            <ul>
-                <li>Alert fans when she is live</li>
-                <li>Engage with fans on social media</li>
-                <li>Track social media analytics</li>
-            </ul>
-        </div>
-        <div class="persona-description">
-            <h4>Frustrations</h4>
-            <ul>
-                <li>Posting on multiple social networks</li>
-                <li>Organizing her streaming assets</li>
-            </ul>
-        </div>
-        <div class="img-container">
-            <img src="./assets/kudu-persona-2.png" alt="Kudu persona 2 description">
-        </div>
-        <div class="persona-description">
-            <h4>Goals</h4>
-            <ul>
-                <li>Organize all band related assets</li>
-                <li>Engage with fans on social media</li>
-                <li>Collaborate with band mates</li>
-            </ul>
-        </div>
-        <div class="persona-description">
-            <h4>Frustrations</h4>
-            <ul>
-                <li>SMM platforms don’t provide storage</li>
-                <li>Posting content regularly</li>
-            </ul>
-        </div>
+        
+        
         <div class="cta-btn">
             <a href="">View Personas</a>
         </div>
@@ -264,36 +285,39 @@
         </p>
     </section>
 
-    <section class="content-box">
-        <div class="platform">
-            <div class="img-container">
-                <img class="spaced-img" src="./assets/hootsuite-logo.png" alt="Hootsuite Logo">
+    <section class="flex-container">
+        <section class="content-box">
+            <div class="platform">
+                <div class="img-container">
+                    <img class="spaced-img" src="./assets/hootsuite-logo.png" alt="Hootsuite Logo">
+                </div>
+                <p class="hootsuite-text">
+                    As a social media management platform, Hootsuite felt more like a 
+                    direct threat to my platform. In a nutshell, Hootsuite allows users to 
+                    conveniently utilize multiple social network accounts from one location and 
+                    to view detailed analytics of a network or social post performance across channels. 
+                    This is where I needed to determine what they’re doing 
+                    that I should do, and how they are falling short.
+                </p>
             </div>
-            <p class="hootsuite-text">
-                As a social media management platform, Hootsuite felt more like a 
-                direct threat to my platform. In a nutshell, Hootsuite allows users to 
-                conveniently utilize multiple social network accounts from one location and 
-                to view detailed analytics of a network or social post performance across channels. 
-                This is where I needed to determine what they’re doing 
-                that I should do, and how they are falling short.
-            </p>
-        </div>
-    </section>
-
-    <section class="content-box">
-        <div class="platform">
-            <div class="img-container">
-                <img src="./assets/google-drive-icon.png" alt="Google Drive Logo">
+        </section>
+    
+        <section class="content-box">
+            <div class="platform">
+                <div class="img-container">
+                    <img src="./assets/google-drive-icon.png" alt="Google Drive Logo">
+                </div>
+                <p>
+                    Because I was trying to solve a different problem to what Google Drive is meant for, 
+                    I looked to Google Drive more for inspiration on what they were doing well rather 
+                    than how they could improve. Because I already knew that my users were already 
+                    fluent with Google Drive’s interface, I wanted to emulate a similar experience 
+                    so my users would feel at home on my platform.
+                </p>
             </div>
-            <p>
-                Because I was trying to solve a different problem to what Google Drive is meant for, 
-                I looked to Google Drive more for inspiration on what they were doing well rather 
-                than how they could improve. Because I already knew that my users were already 
-                fluent with Google Drive’s interface, I wanted to emulate a similar experience 
-                so my users would feel at home on my platform.
-            </p>
-        </div>
+        </section>
     </section>
+    
 
     <!-- Wireframes -->
     <section class="content-box paragraph-padding">
@@ -310,7 +334,7 @@
                 <img src="./assets/kudu-wireframe-1.png" alt="Kudu wireframe">
                 <img src="./assets/kudu-wireframe-2.png" alt="Kudu wireframe">    
             </div>
-            <div class="flex-containter">
+            <div class="flex-container">
                 <img src="./assets/kudu-wireframe-3.png" alt="Kudu wireframe">
                 <img src="./assets/kudu-wireframe-4.png" alt="Kudu wireframe">
             </div>
@@ -337,18 +361,21 @@
     </section>
 
     <!-- Logo -->
-    <section class="content-box paragraph-padding">
+    <section class="content-box paragraph-padding kudu-logo">
         <h2>Designing the logo</h2>
         <p>
             After landing on the name Kudu, I proceeded to sketch some possible renditions of the logo. 
             I looked at many photos of kudus and did my best to capture the energy and mood I was looking for in my logo.
         </p>
         <img src="./assets/kudu-logo-progress.png" alt="Kudu logo progress">
-        <img src="./assets/kudu-final-logo.png" alt="Kudu logo">
+        <div class="img-container">
+            <img src="./assets/kudu-final-logo.png" alt="Kudu logo">
+
+        </div>
     </section>
 
     <!-- Branding -->
-    <section class="content-box paragraph-padding">
+    <section class="content-box paragraph-padding mood">
         <h2>Determining the mood</h2>
         <p>
             Now that I had a name and a logo, I needed to determine what kind of emotions I wanted to 
@@ -375,7 +402,9 @@
                 For the main content I chose to use lato for its legibility as 
                 smaller text and the way it nicely compliments futura.
             </p>
-            <img src="./assets/kudu-branding-lato.png" alt="Lato font example">
+            <div class="img-container">
+                <img src="./assets/kudu-branding-lato.png" alt="Lato font example">
+            </div>
         </div>
     </section>
 
@@ -393,8 +422,8 @@
         </p>
         <div class="mockups-screens">
             <img src="./assets/kudu-hifi-1.png" alt="Kudu high fidelity mockup before">
-            <img class="arrow horizontal" src="./assets/horizontal-arrow.png" alt="Horizontal arrow">
-            <img class="arrow" src="./assets/vertical-arrow.png" alt="Vertical arrow">
+            <img class="arrow desktop" src="./assets/horizontal-arrow.png" alt="Horizontal arrow">
+            <img class="arrow mobile" src="./assets/vertical-arrow.png" alt="Vertical arrow">
             <img src="./assets/kudu-hifi-2.png" alt="Kudu high fidelity mockup after">
         </div>
     </section>
@@ -416,14 +445,14 @@
         </p>
         <div class="mockups-screens">
             <img src="./assets/kudu-hifi-2.png" alt="Kudu high fidelity mockup">
-            <img class="arrow horizontal" src="./assets/horizontal-arrow.png" alt="Horizontal arrow">
-            <img class="arrow vertical" src="./assets/vertical-arrow.png" alt="Vertical arrow">
+            <img class="arrow desktop" src="./assets/horizontal-arrow.png" alt="Horizontal arrow">
+            <img class="arrow mobile" src="./assets/vertical-arrow.png" alt="Vertical arrow">
             <img src="./assets/kudu-final-1.png" alt="Kudu home screen">
         </div>
     </section>
 
     <!-- Final product -->
-    <section class="content-box">
+    <section class="content-box final-product">
         <h2>The final product</h2>
         <div class="img-container">
             <img src="./assets/kudu-final-mockup.png" alt="Kudu landing page">
@@ -435,7 +464,7 @@
                 <img src="./assets/kudu-final-1.png" alt="Kudu dashboard">
                 <img src="./assets/kudu-final-2.png" alt="Kudu new post">    
             </div>
-            <div class="flex-containter">
+            <div class="flex-container">
                 <img src="./assets/kudu-final-3.png" alt="Kudu drive page">
                 <img src="./assets/kudu-final-4.png" alt="Kudu inbox">
             </div>
@@ -443,17 +472,25 @@
     </section>
 
      <!-- Prototypes -->
-     <section class="content-box">
+    <section class="content-box flex-container">
         <div class="prototype">
-            <img src="./assets/kudu-desktop-prototype.png" alt="Kudu desktop prototype">
-            <div class="cta-btn">
-                <a href="">Desktop prototype</a>
+            <div class="content-container">
+                <div class="img-container">
+                    <img src="./assets/kudu-desktop-prototype.png" alt="Kudu desktop prototype">
+                </div>
+                <div class="cta-btn">
+                    <a href="">Desktop prototype</a>
+                </div>
             </div>
         </div>
         <div class="prototype">
-            <img src="./assets/kudu-mobile-prototype.png" alt="Kudu mobile prototype">
-            <div class="cta-btn">
-                <a href="">Mobile prototype</a>
+            <div class="content-container">
+                <div class="img-container">
+                    <img src="./assets/kudu-mobile-prototype.png" alt="Kudu mobile prototype">
+                </div>
+                <div class="cta-btn">
+                    <a href="">Mobile prototype</a>
+                </div>
             </div>
         </div>
     </section>
