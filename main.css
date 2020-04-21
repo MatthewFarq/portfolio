@@ -107,6 +107,11 @@ header nav {
     justify-content: space-evenly;
 }
 
+header nav .nav-left a {
+    height: 70px;
+    width: 70px
+}
+
 header nav .nav-right .nav-list {
     display: none;
 }
