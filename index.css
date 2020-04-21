@@ -55,8 +55,6 @@
     width: 150px;
 }
 
-
-
 .content-background {
     background-color: #F2F6FA;
 }
@@ -69,13 +67,14 @@
     .desktop {
         display: block;
     }
+
     .centered-img {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
-   .centered-img .centered-img-container {
+
+    .centered-img .centered-img-container {
         width: 100%;
     }
 
@@ -95,31 +94,30 @@
     .flex div, .flex-reverse div {
         width: 50%;
     }
-    
+
     .hero-container {
         display: flex;
         justify-content: space-evenly;
-        padding: 60px 0  144px 0;
+        padding: 60px 0 144px 0;
     }
 
     .hero-img {
-       display: block;
-       width: 50%;
-       text-align: center;
-   }
+        display: block;
+        width: 50%;
+        text-align: center;
+    }
 
-   .hero-img-mobile {
-       display: none;
-   }
+    .hero-img-mobile {
+        display: none;
+    }
 
-   .hero-info-container {
+    .hero-info-container {
         width: 50%;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        padding-left: 40px
-   }
+        padding-left: 40px }
 
     .hero-info {
         display: flex;
@@ -159,7 +157,6 @@
         justify-content: center;
     }
 
-
     .padding-right {
         padding-right: 45px;
     }
@@ -181,6 +178,7 @@
     .hero-info .border-line {
         max-width: 400px;
     }
+
     .content-box {
         padding: 64px 90px;
     }
@@ -192,7 +190,6 @@
     .padding-left {
         padding-left: 100px;
     }
-
 }
 
 @media only screen and (min-width: 1130px) {
@@ -201,8 +198,8 @@
     }
 
     .hero-info-container {
-        padding-left: 80px
-   }
+        padding-left: 80px 
+    }
 
     .hero-info {
         max-width: 498px;

@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-/* Kudu case study */
+
 .kudu-body h1 {
     font-size: 36px;
 }
@@ -19,11 +19,10 @@
     max-width: 1015px;
 }
 
-
  .kudu-body .img-container {
-     padding-top: 0;
-     text-align: center;
- }
+    padding-top: 0;
+    text-align: center;
+}
 
 .kudu-hero h1 {
     padding-bottom: 30px;
@@ -57,6 +56,7 @@
 .project-info-list ul {
     margin-left: 24px;
 }
+
 .project-info-list ul li {
     line-height: 1.7;
 }
@@ -79,7 +79,6 @@
 
 .user-survey-graphs figure {
     text-align: center;
-    padding-bottom: 45px;
 }
 
 .user-survey-graphs figure:nth-last-child(1) {
@@ -94,10 +93,12 @@
 .persona-description {
     padding-bottom: 16px;
 }
+
 .persona-description h4 {
     font-size: 16px;
     font-weight: 600;
 }
+
 .persona-description ul {
     margin-left: 24px;
 }
@@ -108,12 +109,13 @@
 }
 
 .screens img {
-     margin-top: 40px;
+    margin-top: 40px;
 }
 
 .platform .img-container .spaced-img {
     margin: -20px 0;
 }
+
 .platform .img-container img {
     max-width: 200px;
 }
@@ -126,7 +128,6 @@
     padding-top: 15px;
 }
 
-
 .mockups-screens .arrow.mobile {
     max-width: 25px;
     margin: 10px;
@@ -137,7 +138,6 @@
     margin: 10px;
 }
 
-/* duplocate */
 .paragraph-padding p {
     padding-bottom: 20px;
 }
@@ -194,19 +194,19 @@
     .paragraph-padding p {
         padding-bottom: 24px;
     }
-    
+
     .persona-description {
         padding-bottom: 0;
     }
+
     .persona-description h4 {
         font-size: 24px;
         padding-bottom: 5px;
-
     }
 
     .screens img {
         margin-top: 40px;
-   }
+    }
 
     .persona .img-container {
         padding-bottom: 24px;
@@ -214,8 +214,8 @@
 
     .persona-description ul {
         padding-bottom: 24px;
-
     }
+
     .kudu-body .content-box .prototype {
         width: 50%;
     }
@@ -223,6 +223,7 @@
     .kudu-body .content-box {
         margin-top: 112px;
     }
+
     .kudu-body h2 {
         font-size: 36px;
     }
@@ -249,7 +250,7 @@
         width: 80%;
     }
 
-     .user-survey-graphs {
+    .user-survey-graphs {
         display: flex;
         justify-content: space-between;
     }
@@ -264,7 +265,7 @@
     }
 
     .user-survey-graphs div figure {
-        height: 350px;
+        height: 400px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -276,8 +277,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        /* max-height: 350px;
-        height: 100%; */
     }
 
     .personas .personas-container {
@@ -288,12 +287,13 @@
     .personas .personas-container .persona {
         width: 80%;
     }
+
     .personas .personas-container .persona .img-container {
         max-width: 95%;
     }
 
     .screens img {
-       max-width: 48%;
+        max-width: 48%;
     }
 
     .kudu-logo .img-container, .mood .img-container {
@@ -304,7 +304,6 @@
     .mood .img-container {
         padding: 60px 0 67px;
     }
-    
 
     .mood .font-info {
         display: flex;
@@ -340,16 +339,6 @@
     }
 
     .platform .img-container .spaced-img {
-       margin: 0;
+        margin: 0;
     }
-   
-}
-
-@media only screen and (min-width: 930px) {
-    
-}
-
-@media only screen and (min-width: 1130px) {
-   
-
-}
+ }
