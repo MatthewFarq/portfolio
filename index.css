@@ -200,27 +200,6 @@
         max-width: 500px;
     }
 
-    .header {
-        padding: 0;
-    }
-
-    header nav .nav-right .nav-list {
-        display: flex;
-        padding-left: 50px;
-    }
-
-    header nav .nav-right {
-        justify-content: center;
-    }
-
-    header nav .nav-left {
-        padding-left: 45px;
-    }
-
-    header .nav-right .hamburger-menu {
-        display: none;
-    }
-
     .hero-info-container {
         padding-left: 80px
    }

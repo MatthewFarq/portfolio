@@ -211,4 +211,39 @@ footer .social-icons img {
     .mobile {
         display: none;
     }
+
+    .flex-right {
+        padding-left: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+   }
+}
+
+@media only screen and (min-width: 1130px) {
+    .header {
+        padding: 0;
+    }
+
+    header nav .nav-right .nav-list {
+        display: flex;
+        padding-left: 50px;
+    }
+
+    header nav .nav-right {
+        justify-content: center;
+    }
+
+    header nav .nav-left {
+        padding-left: 45px;
+    }
+
+    header .nav-right .hamburger-menu {
+        display: none;
+    }
+
+    .flex-right {
+        padding-left: 80px
+   }
+
 }

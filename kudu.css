@@ -104,10 +104,11 @@
 
 .personas .img-container {
     padding-top: 20px;
+    padding-bottom: 16px;
 }
 
 .screens img {
-     margin-top: 30px;
+     margin-top: 40px;
 }
 
 .platform .img-container .spaced-img {
@@ -165,8 +166,19 @@
     flex-direction: column;
 }
 
+.mood .img-container {
+    padding: 20px 0 40px;
+}
+
+.final-product h2 {
+    margin-bottom: 20px;
+}
+
+.user-survey-graphs div:nth-child(even) {
+    padding: 30px 0;
+}
+
 @media only screen and (min-width: 760px) {
-    /* duplocate */
     .flex-container {
         display: flex;
         max-width: 1015px;
@@ -175,7 +187,61 @@
         justify-content: space-between;
     }
 
+    .kudu-body h1 {
+        font-size: 64px;
+    }
+
+    .paragraph-padding p {
+        padding-bottom: 24px;
+    }
+    
+    .persona-description {
+        padding-bottom: 0;
+    }
+    .persona-description h4 {
+        font-size: 24px;
+        padding-bottom: 5px;
+
+    }
+
+    .screens img {
+        margin-top: 40px;
+   }
+
+    .persona .img-container {
+        padding-bottom: 24px;
+    }
+
+    .persona-description ul {
+        padding-bottom: 24px;
+
+    }
     .kudu-body .content-box .prototype {
+        width: 50%;
+    }
+
+    .kudu-body .content-box {
+        margin-top: 112px;
+    }
+    .kudu-body h2 {
+        font-size: 36px;
+    }
+
+    .kudu-body .content-box p, .content-box li {
+        font-size: 24px;
+    }
+
+    .kudu-hero {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1188px;
+        padding: 230px 45px 230px;
+        margin: auto;
+    }
+
+    .kudu-hero .flex-left, .kudu-hero .flex-right {
         width: 50%;
     }
 
@@ -193,18 +259,25 @@
         height: auto;
     }
 
-    .user-survey-graphs div figure {
-        height: 100%
+    .user-survey-graphs div:nth-child(even) {
+        padding: 0;
     }
 
-    .content-box .user-survey-graphs figure img {
-        max-width: 100%;
+    .user-survey-graphs div figure {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .content-box .user-survey-graphs figure .img-container {
+        max-width: 290px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         /* max-height: 350px;
         height: 100%; */
-    }
-
-    .user-survey-graphs figure:nth-last-child(1) {
-        padding-bottom: 45px;
     }
 
     .personas .personas-container {
@@ -216,7 +289,7 @@
         width: 80%;
     }
     .personas .personas-container .persona .img-container {
-        max-width: 430px;
+        max-width: 95%;
     }
 
     .screens img {
@@ -227,6 +300,11 @@
         max-width: 500px;
         margin: auto;
     }
+
+    .mood .img-container {
+        padding: 60px 0 67px;
+    }
+    
 
     .mood .font-info {
         display: flex;
@@ -255,6 +333,10 @@
     .final-product .img-container {
         max-width: 842px;
         margin: auto;
+    }
+
+    .final-product h2 {
+        margin-bottom: 40px;
     }
 
     .platform .img-container .spaced-img {
