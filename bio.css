@@ -1,0 +1,72 @@
+main p {
+    font-size: 20px;
+}
+
+main {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.quote-container {
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    margin: auto;
+}
+
+.quote-container .quote-text {
+    padding: 30px 0;
+    font-size: 22px;
+    text-align: center;
+}
+
+.quote-container .quote {
+    max-width: 50px;
+}
+
+.content-container {
+    padding: 0 32px 40px 32px;
+}
+
+
+@media only screen and (min-width: 760px) {
+    p {
+        font-size: 24px;
+    }
+
+    .quote-container {
+        max-width: 670px;
+    }
+
+    .quote-container .quote-text {
+        font-size: 36px;
+    }
+
+    .content-container {
+        max-width: 830px;
+        margin: auto;
+    }
+
+    .hero {
+        display: flex;
+        max-width: 1188px;
+        margin: auto;
+        justify-content: space-between;
+        padding: 40px 45px 32px;
+    }
+
+    .hero div {
+        max-width: 47%; 
+    }
+}
+
+@media only screen and (min-width: 930px) {
+    
+    .content-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
