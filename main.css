@@ -89,6 +89,10 @@ img {
     color: #000000;
 }
 
+.nav-drawer .nav-items li a:hover {
+    border-bottom: 3px solid #000000;
+}
+
 header {
     margin-top: 60px;
     display: flex;
@@ -114,6 +118,10 @@ header nav .nav-left a {
 
 header nav .nav-right .nav-list {
     display: none;
+}
+
+header nav .nav-right .nav-list li a:hover {
+    border-bottom: 3px solid #000000;
 }
 
 header nav .nav-left, header nav .nav-right {
