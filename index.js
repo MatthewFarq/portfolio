@@ -10,12 +10,7 @@ if (hamburger_button) {
 }
 
 if (overlay) {
-    overlay.addEventListener('click', (event) => {
-        if (event.target !== overlay) {
-            return;
-        } 
-        handleMenuToggle()
-    });
+    overlay.addEventListener('click', handleMenuToggle);
 }
 
 function handleMenuToggle() {
