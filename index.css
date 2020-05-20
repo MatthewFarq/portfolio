@@ -2,9 +2,10 @@
     padding: 0 32px;
 }
 
-.hero-info h1 {
+.hero-info .hero-name {
     font-family: 'Montserrat', sans-serif;
     padding: 30px 0 15px 0;
+    font-size: 32px;
 }
 
 .hero-info .border-line {

@@ -77,9 +77,6 @@ img {
     flex-direction: column;
     margin-top: 77px;
 }
-svg:hover {
-    fill: red;
-  }
 
 .nav-drawer .nav-items li {
     padding-bottom: 32px;
