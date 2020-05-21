@@ -2,9 +2,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-header, main {
+nav, main {
     max-width: 1188px;
     margin: auto;
+}
+
+main {
+    margin-top: 80px;
 }
 
 h1, h2, h3 {
@@ -94,10 +98,16 @@ img {
 }
 
 header {
-    margin-top: 60px;
+    padding-top: 60px;
     display: flex;
     justify-content: flex-end;
     padding: 24px 32px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.95);
+    position: fixed;
+    top: 0;
+    width: 100%;
+
 }
 
 .desktop {
@@ -232,9 +242,9 @@ footer .social-icons img {
 }
 
 @media only screen and (min-width: 1130px) {
-    .header {
+    /* .header {
         padding: 0;
-    }
+    } */
 
     header nav .nav-right .nav-list {
         display: flex;

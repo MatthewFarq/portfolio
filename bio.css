@@ -3,7 +3,7 @@ main p {
 }
 
 main {
-    margin-top: 70px;
+    margin-top: 130px;
     margin-bottom: 70px;
 }
 
@@ -36,6 +36,9 @@ main {
 }
 
 @media only screen and (min-width: 760px) {
+    main {
+        margin-top: 100px;
+    }
     p {
         font-size: 24px;
     }
