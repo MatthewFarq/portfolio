@@ -27,6 +27,17 @@ h2, h3 {
     font-weight: 700;
 }
 
+.fab {
+    color: #969696;
+    font-size: 30px;
+    transition: 0.15s ease-in-out;
+}
+
+.fab:hover {
+    color: white;
+    font-size: 30px;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -208,19 +219,18 @@ header nav .nav-right {
 }
 
 footer {
-    padding: 24px 40px 60px 40px;
+    padding: 32px 40px 32px 40px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     background-color: #000000;
-    color: #ffffff;
+    color: #969696;
 }
 
 footer p {
-    text-decoration: underline;
     font-weight: 400;
-    padding: 8px 0;
+    padding: 20px 0;
 }
 
 footer .social-icons {
