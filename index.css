@@ -58,6 +58,7 @@
 
 .content-background {
     background-color: #F2F6FA;
+    border-radius: 5px;
 }
 
 @media only screen and (min-width: 760px) {
