@@ -91,17 +91,29 @@ img {
     display: flex;
     flex-direction: column;
     margin-top: 77px;
+    width: 100%;
 }
 
 .nav-drawer .nav-items li {
-    padding-bottom: 32px;
     font-weight: 600;
     font-size: 24px;
     list-style: none;
+    width: 100%;
+    text-align: center;
 }
 
 .nav-drawer .nav-items li a {
     color: #000000;
+    min-width: 100%;
+    text-align: center;
+}
+
+.nav-drawer .nav-items li a p {
+    color: #000000;
+    min-width: 100%;
+    text-align: center;
+    padding: 16px 0px;
+
 }
 
 .nav-drawer .nav-items li a:hover {
