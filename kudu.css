@@ -113,7 +113,13 @@
 
 .platform .img-container img {
     width: auto;
+    /* padding-bottom: 15px; */
+}
+
+.platform figcaption {
+    font-family: 'Montserrat', sans-serif;
     padding-bottom: 15px;
+    font-style: italic;
 }
 
 .mockups-screens {
