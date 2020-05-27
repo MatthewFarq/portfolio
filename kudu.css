@@ -111,12 +111,9 @@
     margin-top: 40px;
 }
 
-.platform .img-container .spaced-img {
-    margin: -20px 0;
-}
-
 .platform .img-container img {
-    max-width: 200px;
+    width: auto;
+    padding-bottom: 15px;
 }
 
 .mockups-screens {
