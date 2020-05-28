@@ -107,8 +107,13 @@
     padding-bottom: 16px;
 }
 
-.screens img {
+.screens figure {
     margin-top: 40px;
+}
+
+.screens figure figcaption {
+    font-style: italic;
+    padding-bottom: 3px;
 }
 
 .platform .img-container img {
@@ -138,6 +143,11 @@
 .mockups-screens .arrow.desktop {
     max-width: 100px;
     margin: 10px;
+}
+
+.mockups-screens figure figcaption {
+    font-style: italic;
+    padding-bottom: 3px;
 }
 
 .paragraph-padding p {
@@ -176,6 +186,10 @@
     margin-bottom: 20px;
 }
 
+.final-screens img {
+    padding-top: 20px;
+}
+
 .user-survey-graphs div:nth-child(even) {
     padding: 30px 0;
 }
@@ -204,10 +218,6 @@
     .persona-description h4 {
         font-size: 24px;
         padding-bottom: 5px;
-    }
-
-    .screens img {
-        margin-top: 40px;
     }
 
     .persona .img-container {
@@ -294,7 +304,7 @@
         max-width: 95%;
     }
 
-    .screens img {
+    .screens figure {
         max-width: 48%;
     }
 
@@ -327,7 +337,7 @@
         flex-direction: row;
     }
 
-    .mockups-screens img {
+    .mockups-screens figure {
         max-width: 43%;
     }
 
@@ -339,16 +349,12 @@
     .final-product h2 {
         margin-bottom: 40px;
     }
-
-    .platform .img-container .spaced-img {
-        margin: 0;
-    }
  }
 
  @media only screen and (min-width: 1200px) {
 
-    .mockups-screens img {
-       max-width: 55%;
+    .mockups-screens figure {
+       min-width: 55%;
     }
 
  }
